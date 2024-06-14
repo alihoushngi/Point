@@ -1,5 +1,5 @@
 import Header from "@/components/Base/Header/Header";
-import Navbar from "@/components/Base/Navbar";
+import Navbar from "@/components/Base/Navbar/Navbar";
 
 export default function Home() {
   return (
