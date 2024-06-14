@@ -1,6 +1,6 @@
-import LanguageChanger from "../Home/LanguageChanger/LanguageChanger";
-import Logo from "../Home/Logo/Logo";
-import Menu from "../Home/Menu/Menu";
+import LanguageChanger from "../../Home/LanguageChanger/LanguageChanger";
+import Logo from "../../Home/Logo/Logo";
+import Menu from "../../Home/Menu/Menu";
 
 const Navbar = () => {
   return (
