@@ -73,23 +73,23 @@
 
 /* header wave */
 .circle-wave1 {
-  animation: animation1 2s linear infinite;
+  animation: animation1 1500ms linear infinite;
 }
 
 .circle-wave2 {
-  animation: animation2 3s linear infinite;
+  animation: animation2 1600ms linear infinite;
 }
 
 .circle-wave3 {
-  animation: animation3 2s linear infinite;
+  animation: animation3 1700ms linear infinite;
 }
 
 .circle-wave4 {
-  animation: animation4 2s linear infinite;
+  animation: animation4 1800ms linear infinite;
 }
 
 .circle-wave5 {
-  animation: animation5 2s linear infinite;
+  animation: animation5 1900ms linear infinite;
 }
 
 @keyframes animation1 {
