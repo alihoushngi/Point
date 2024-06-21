@@ -3,10 +3,12 @@ import { WhatsWeDoList } from "./WhatsWeDoList";
 
 const WhatsWeDo = () => {
   return (
-    <div className="w-full relative bg-primary z-50 border-t border-secondary p-6 max-w-[750px] m-auto mb-3 -mt-24 custom-box-shadow">
+    <section className="w-full relative bg-primary z-50 border-t border-secondary p-6 max-w-[750px] m-auto mb-3 -mt-24 custom-box-shadow">
       <div className="flex flex-col justify-center items-center ">
-        <h2 className="uppercase text-xl font-bold">what we do</h2>
-        <span className="text-xs font-extralight">
+        <h2 className="uppercase text-xl font-bold text-textColor">
+          what we do
+        </h2>
+        <span className="text-xs font-extralight text-textColor">
           Full-services marketing communication solutions
         </span>
       </div>
@@ -15,14 +17,14 @@ const WhatsWeDo = () => {
           return (
             <div
               key={index}
-              className="w-[150px] h-[150px] flex justify-center items-center custom-circle-shadow border border-secondary rounded-[9999px] bg-primary text-xl text-center capitalize"
+              className="w-[150px] h-[150px] flex justify-center text-textColor items-center custom-circle-shadow border border-secondary rounded-[9999px] bg-primary text-xl text-center capitalize"
             >
               <h3>{item}</h3>
             </div>
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 
