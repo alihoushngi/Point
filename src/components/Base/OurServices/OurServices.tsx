@@ -5,7 +5,7 @@ import { OurServicesListThree } from "./OurServicesListThree";
 
 const OurServices = () => {
   return (
-    <section className="max-w-[750px] m-auto my-14 w-full flex flex-col gap-3">
+    <section className="max-w-[750px] m-auto my-14 w-full flex flex-col gap-3 mb-32">
       <h2 className="capitalize text-md font-bold text-textColor text-center">
         our services
       </h2>

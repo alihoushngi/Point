@@ -3,7 +3,7 @@ import { WhatsWeDoList } from "./WhatsWeDoList";
 
 const WhatsWeDo = () => {
   return (
-    <section className="w-full relative bg-primary z-50 border-t border-secondary p-6 max-w-[750px] m-auto mb-3 -mt-24 custom-box-shadow">
+    <section className="w-full relative bg-primary z-50 border-t border-secondary p-6 max-w-[750px] m-auto mb-32 -mt-24 custom-box-shadow">
       <div className="flex flex-col justify-center items-center ">
         <h2 className="uppercase text-xl font-bold text-textColor">
           what we do
