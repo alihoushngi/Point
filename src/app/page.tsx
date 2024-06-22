@@ -1,3 +1,4 @@
+import AboutUs from "@/components/Base/AboutUs/AboutUs";
 import Header from "@/components/Base/Header/Header";
 import LatestWork from "@/components/Base/LatestWork/LatestWork";
 import Navbar from "@/components/Base/Navbar/Navbar";
@@ -11,7 +12,10 @@ export default function Home() {
       <Header />
       <WhatsWeDo />
       <OurServices />
-      <LatestWork />
+      <div className="border border-secondary custom-border-radius flex flex-col items-center">
+        <LatestWork />
+        <AboutUs />
+      </div>
     </main>
   );
 }
