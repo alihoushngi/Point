@@ -4,7 +4,7 @@ import { LatestWorkItems } from "./LatestWorkItems";
 
 const LatestWork = () => {
   return (
-    <section className="w-full flex flex-col justify-center items-center gap-4">
+    <section className="w-full flex flex-col justify-center items-center gap-2 max-w-[1300px]">
       <div className="flex gap-1 justify-center items-center m-8 mt-40">
         <span className="w-[6px] h-[6px] rounded-[9999px] bg-secondary"></span>
         <span className="w-[6px] h-[6px] rounded-[9999px] bg-secondary"></span>

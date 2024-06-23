@@ -3,6 +3,7 @@ import Header from "@/components/Base/Header/Header";
 import LatestWork from "@/components/Base/LatestWork/LatestWork";
 import Navbar from "@/components/Base/Navbar/Navbar";
 import OurServices from "@/components/Base/OurServices/OurServices";
+import Process from "@/components/Base/Process/Process";
 import WhatsWeDo from "@/components/Base/WhatsWeDo/WhatsWeDo";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <LatestWork />
         <AboutUs />
       </div>
+      <Process />
     </main>
   );
 }
