@@ -1,11 +1,11 @@
-import AboutUs from "@/components/Base/AboutUs/AboutUs";
-import Blog from "@/components/Base/Blog/Blog";
-import Header from "@/components/Base/Header/Header";
-import LatestWork from "@/components/Base/LatestWork/LatestWork";
-import Navbar from "@/components/Base/Navbar/Navbar";
-import OurServices from "@/components/Base/OurServices/OurServices";
-import Process from "@/components/Base/Process/Process";
-import WhatsWeDo from "@/components/Base/WhatsWeDo/WhatsWeDo";
+import AboutUs from "@/components/Base/MainPage/AboutUs/AboutUs";
+import Blog from "@/components/Base/MainPage/Blog/Blog";
+import Header from "@/components/Base/MainPage/Header/Header";
+import LatestWork from "@/components/Base/MainPage/LatestWork/LatestWork";
+import Navbar from "@/components/Base/MainPage/Navbar/Navbar";
+import OurServices from "@/components/Base/MainPage/OurServices/OurServices";
+import Process from "@/components/Base/MainPage/Process/Process";
+import WhatsWeDo from "@/components/Base/MainPage/WhatsWeDo/WhatsWeDo";
 
 export default function Home() {
   return (
