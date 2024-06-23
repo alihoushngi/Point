@@ -1,4 +1,5 @@
 import AboutUs from "@/components/Base/AboutUs/AboutUs";
+import Blog from "@/components/Base/Blog/Blog";
 import Header from "@/components/Base/Header/Header";
 import LatestWork from "@/components/Base/LatestWork/LatestWork";
 import Navbar from "@/components/Base/Navbar/Navbar";
@@ -18,6 +19,7 @@ export default function Home() {
         <AboutUs />
       </div>
       <Process />
+      <Blog />
     </main>
   );
 }

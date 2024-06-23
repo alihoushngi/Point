@@ -33,8 +33,8 @@ const LatestWork = () => {
         <span className="w-[6px] h-[6px] rounded-[9999px] bg-secondary"></span>
         <span className="w-[6px] h-[6px] rounded-[9999px] bg-secondary"></span>
       </div>
-      <div className="w-12 h-12 rounded-[9999px] bg-secondary flex justify-center items-center">
-        <span className="text-[10px] text-center text-wrap">
+      <div className="w-12 h-12 rounded-[9999px] bg-secondary flex justify-center items-center custom-circle-shadow">
+        <span className="text-[9px] text-center text-wrap">
           see all product
         </span>
       </div>

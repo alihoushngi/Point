@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="mt-16 max-w-[600px] w-full">
+    <section className="mt-16 max-w-[750px] w-full">
       <div className="flex gap-1 mt-8">
         <span className="w-[6px] h-[6px] rounded-[9999px] bg-secondary"></span>
         <span className="w-[6px] h-[6px] rounded-[9999px] bg-secondary"></span>
@@ -24,7 +24,7 @@ const AboutUs = () => {
           delectus atque harum mollitia
         </span>
       </div>
-      <div className="mt-2 mb-40 m-auto">
+      <div className="mt-2 mb-60 m-auto">
         <Slider />
       </div>
     </section>
