@@ -1,7 +1,6 @@
 import { ReactComponent } from "@/types/types";
 import { IWorkCardTypes } from "./WorkCardTypes";
 import Link from "next/link";
-import React from "react";
 import Image from "next/image";
 
 const WorkCard: ReactComponent<IWorkCardTypes> = (props) => {

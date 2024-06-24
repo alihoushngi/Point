@@ -1,5 +1,3 @@
-import React from "react";
-
 const ContactUs = () => {
   return (
     <section className="mt-40 max-w-[750px] w-full m-auto">

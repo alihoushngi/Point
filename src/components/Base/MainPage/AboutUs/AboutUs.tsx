@@ -1,5 +1,4 @@
 import Slider from "@/components/Home/Slider/Slider";
-import React from "react";
 
 const AboutUs = () => {
   return (

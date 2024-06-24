@@ -1,4 +1,3 @@
-import React from "react";
 import { OurServicesListOne } from "./OurServicesListOne";
 import { OurServicesListTwo } from "./OurServicesListTwo";
 import { OurServicesListThree } from "./OurServicesListThree";

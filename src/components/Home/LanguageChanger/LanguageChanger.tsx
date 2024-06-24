@@ -1,5 +1,3 @@
-import React from "react";
-
 const LanguageChanger = () => {
   return (
     <div id="SwitcherButton" className="relative inline-block my-0 mx-1">

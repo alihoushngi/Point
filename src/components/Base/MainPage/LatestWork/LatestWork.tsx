@@ -1,5 +1,4 @@
 import WorkCard from "@/components/Home/WorkCard/WorkCard";
-import React from "react";
 import { LatestWorkItems } from "./LatestWorkItems";
 
 const LatestWork = () => {

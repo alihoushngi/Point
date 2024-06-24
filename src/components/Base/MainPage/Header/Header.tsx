@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = () => {
   return (
     <header className="flex flex-col justify-center items-center min-h-[calc(100vh-200px)] mt-20">

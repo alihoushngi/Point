@@ -1,5 +1,4 @@
 import Timeline from "@/components/Home/Timeline/Timeline";
-import React from "react";
 
 const Process = () => {
   return (

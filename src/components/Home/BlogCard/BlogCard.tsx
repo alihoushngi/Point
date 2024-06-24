@@ -1,7 +1,6 @@
 import { ReactComponent } from "@/types/types";
 import { IBlogCardTypes } from "./BlogCardTypes";
 import Link from "next/link";
-import React from "react";
 import Image from "next/image";
 
 const BlogCard: ReactComponent<IBlogCardTypes> = (props) => {

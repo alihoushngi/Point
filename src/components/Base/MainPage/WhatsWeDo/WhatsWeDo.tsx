@@ -1,4 +1,3 @@
-import React from "react";
 import { WhatsWeDoList } from "./WhatsWeDoList";
 
 const WhatsWeDo = () => {
