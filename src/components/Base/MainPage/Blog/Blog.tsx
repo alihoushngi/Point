@@ -29,7 +29,9 @@ const Blog = () => {
         })}
       </div>
       <div className="w-12 h-12 rounded-[9999px] bg-secondary flex justify-center items-center m-auto mt-8 custom-circle-shadow">
-        <span className="text-[10px] text-center text-wrap">view more</span>
+        <span className="text-[10px] text-center text-wrap capitalize">
+          view more
+        </span>
       </div>
     </section>
   );
