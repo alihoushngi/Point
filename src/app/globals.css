@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --scrollbar-color: #f05721;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+
+  background-color: #212b56;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-color);
+  border-radius: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* language changer custom style */
 #LanguageToggle:checked en {
   color: #000;
