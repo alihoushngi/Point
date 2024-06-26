@@ -1,6 +1,7 @@
-import Navbar from "../Navbar/Navbar";
 import { ReactComponent } from "@/types/types";
 import { ILayoutTypes } from "./DesktopLayoutTypes";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 const DesktopLayout: ReactComponent<ILayoutTypes> = (props) => {
   const { children } = props;
@@ -8,6 +9,7 @@ const DesktopLayout: ReactComponent<ILayoutTypes> = (props) => {
     <>
       <Navbar />
       {children}
+      <Footer />
     </>
   );
 };
